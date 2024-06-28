@@ -155,5 +155,5 @@ def main():
     nc = NetCat(args, buffer.encode())
     nc.run()
 
-
-main()
+if __name__ == "__main__":
+    main()
